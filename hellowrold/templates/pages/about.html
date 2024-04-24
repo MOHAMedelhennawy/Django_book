@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<h1>Hello from about page</h1>
+{% if name == 'mohammed' %}
+<p>Welcome mohammed</p>
+{% else %}
+<p>Who are you???</p>
+{% endif %}
+
+{% for x in name %}
+    <p>{{x}}</p>
+{% endfor %}
+
+<img src="{% static 'img/ph1.png' %}" alt="">
+{% endblock content %}

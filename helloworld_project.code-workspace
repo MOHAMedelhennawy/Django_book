@@ -1,0 +1,10 @@
+{
+	"folders": [
+		{
+			"path": "../django/helloworld/helloworld_project"
+		},
+		{
+			"path": "../django/helloworld/pages"
+		}
+	]
+}

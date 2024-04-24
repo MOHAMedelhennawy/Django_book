@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div>
+    <h1>Hello from my Home bage</h1>
+    <h3>'capfirst': convert from mohammed to {{name|capfirst}} using 'capfirst'</h3>
+    <h3>'default': What if there no value is found?: var = {{var|default:'not found'}}</h3>
+    <h3>'slice': {{sentence|slice:':20'}}</h3>
+    <h3>'length': length of `{{len}}` is: {{len|length}}</h3>
+    <h3>'add': {{sentence|add:' extra words'}}</h3>
+    <h3>'cut': {{cuut|cut:' '}}</h3>
+    <h3>'filesizeformat': to convert from kiloByte to gigaByte {{fileSize|filesizeformat}}</h3> 
+</div>
+
+{% endblock content %}
