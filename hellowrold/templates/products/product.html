@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Welcome in product page</h1>
+
+{% for car in cars%}
+<h1>{{car.name}}</h1>
+{% endfor %}
+
+{% endblock content %}

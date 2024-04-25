@@ -24,3 +24,6 @@ def about(request):
     '''
     # return HttpResponse("Welcome in about page")
     return render(request, 'pages/about.html', context={'name': "mohammed"})
+
+def modelsPageView(request):
+    return render(request, 'pages/models.html')
